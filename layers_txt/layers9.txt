@@ -1,0 +1,33 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Địa giới hành chính",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>Bạn có thể xem địa giới hành chính</div>",
+      "entries": [
+		  	                     {
+                                 "type": "Layer",
+                                 "id": "dgland",
+                                 "title": "Địa giới hành chính cấp huyện",
+                                 "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/Hanhchinhtinh.geojson",
+                                 "cocotile": true,
+                                 "minZoom": 8,
+                                 "maxZoom": 50,
+								 "maxNativeZoom": 2
+                                },
+                                {
+                                 "type": "Layer",
+                                "id": "dgland1",
+                                "title": "Địa giới hình chính cấp xã",
+                                "url": "https://raw.githubusercontent.com/tanphat132/soxaydung/main/Quangnga1i.geojson",
+                                "cocotile": true,
+                                "minZoom": 2,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 2
+                                }         
+      ]
+    }
+  ]
+}

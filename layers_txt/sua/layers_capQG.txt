@@ -1,0 +1,11 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Quy hoạch cấp tr quốc gia",
+      "iconUrl": "./image/system/folder_new.png",
+      "toggleall": false,
+      "src": "http://localhost/sxd-1/layers_txt/layers_capQG.txt"
+    }
+  ]
+}

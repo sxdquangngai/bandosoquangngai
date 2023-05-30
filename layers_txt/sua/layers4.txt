@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Vị trí ngập úng đô thị qua các năm",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>Bạn có thể xem vị trí ngập úng đô thị qua các năm</div>",
+      "entries": [
+         
+      ]
+    }
+  ]
+}

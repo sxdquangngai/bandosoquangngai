@@ -1,0 +1,27 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Quy hoạch cấp quốc gia",
+      "toggleall": false,
+      "entries": [
+          {
+              "type": "Layer",
+              "id": "20220804rain_0804dansaizu",
+              "title": "Quy hoạch cấp quốc gia",
+              "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+              "cocotile": true,
+              "minZoom": 2,
+              "maxZoom": 16,
+              "maxNativeZoom": 15,
+              "area" : {
+                "lat" : 15.132160,
+                "lng" : 108.437146,
+                "zoom" : 14
+              },
+              "html": "<div class=\"gsi_layerinfo_title\">Quy hoạch cấp quốc gia</div><table><tr><td><div class=\"gsi_layerinfo_kaisetu\"><ul><li>、Chưa cập nhật</li><li></li><li></li></ul></div></td><td><img src=\"https://\" width=100 alt=\"\"></td></tr></table>"
+        }
+      ]
+    }
+  ]
+}

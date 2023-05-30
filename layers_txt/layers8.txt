@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Danh mục dự án kêu gọi đầu tư ngành xây dựng",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>Bạn có thể xem danh mục dự án kêu gọi đầu tư ngành xây dựng</div>",
+      "entries": [
+         
+      ]
+    }
+  ]
+}

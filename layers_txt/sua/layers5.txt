@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Tên các tuyến đường đô thị",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>Bạn có thể xem tên các tuyến đường đô thị</div>",
+      "entries": [
+         
+      ]
+    }
+  ]
+}

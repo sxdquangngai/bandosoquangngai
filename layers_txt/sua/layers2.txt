@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Hạ tầng kỹ thuật",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>Bạn có thể xem hạ tầng kỹ thuật trên toàn tỉnh Quảng Ngãi.</div>",
+      "entries": [
+         
+      ]
+    }
+  ]
+}

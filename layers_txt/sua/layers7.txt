@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Địa giới hành chính, ra giới đô thị và nông",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>Bạn có thể xem địa giới hành chính ra giới đô thị và nông</div>",
+      "entries": [
+         
+      ]
+    }
+  ]
+}

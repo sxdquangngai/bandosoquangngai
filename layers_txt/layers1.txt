@@ -1,0 +1,154 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Quy hoạch",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>Bạn có thể xem quy hoạch trên toàn tỉnh Quảng Ngãi.</div>",
+      "entries": [
+	  	  {
+          "type": "LayerGroup",
+          "title": "Quy hoạch cấp trên",
+          "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch cấp trên tại tỉnh Quảng Ngãi</div>",
+          "toggleall": false,
+          "entries": [
+		              {
+                      "type": "LayerGroup",
+                      "title": "Quy hoạch cấp quốc gia",
+                      "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch cấp quốc gia trên tại tỉnh Quảng Ngãi</div>",
+                      "toggleall": false,
+                      "entries": [
+		  	                     {
+                                 "type": "Layer",
+                                 "id": "land",
+                                 "title": "Lớp thử nghiệm",
+                                 "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/Hanhchinhtinh.geojson",
+                                 "cocotile": true,
+                                 "minZoom": 8,
+                                 "maxZoom": 50,
+								 "maxNativeZoom": 2
+                                },
+                                {
+                                 "type": "Layer",
+                                "id": "land1",
+                                "title": "Lớp thử nghiệm1",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/QH.geojson",
+                                "cocotile": true,
+                                "minZoom": 2,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 2
+                                }
+	                            ]
+	                  },
+		              {
+                      "type": "LayerGroup",
+                      "title": "Quy hoạch cấp vùng",
+                      "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch quy hoạch cấp vùng trên tại tỉnh Quảng Ngãi</div>",
+                      "toggleall": false,
+                      "entries": [
+					  {
+                                 "type": "Layer",
+                                 "id": "cayxanh",
+                                 "title": "vùng Duyên hải Nam Trung Bộ",
+                                 "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgdy36pwdQC79zKDiyCQc7O9dv6xI6TJN0mSCSoCw_OpmQDepSgYujOCkjlvBEOri59_w3V-kxu650/pub?gid=1405862646&single=true&output=csv",
+                                 "cocotile": true,
+                                 "minZoom": 10,
+                                 "maxZoom": 50,
+								 "maxNativeZoom": 2
+                                },
+                                {
+                                 "type": "Layer",
+                                "id": "....",
+                                "title": "xa",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/gsi2023052712190149.geojson",
+                                "cocotile": true,
+                                "minZoom": 2,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 2
+                                }
+		  	  
+	                  ]
+	                  },
+		              {
+                      "type": "LayerGroup",
+                      "title": "Quy hoạch có tính chất kỹ thuật chuyên ngành",
+                      "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch quy hoạch cấp vùng trên tại tỉnh Quảng Ngãi</div>",
+                      "toggleall": false,
+                      "entries": [
+					  {
+                                 "type": "Layer",
+                                 "id": "cayxanh1",
+                                 "title": "......",
+                                 "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgdy36pwdQC79zKDiyCQc7O9dv6xI6TJN0mSCSoCw_OpmQDepSgYujOCkjlvBEOri59_w3V-kxu650/pub?gid=1405862646&single=true&output=csv",
+                                 "cocotile": true,
+                                 "minZoom": 10,
+                                 "maxZoom": 50,
+								 "maxNativeZoom": 2
+                                },
+                                {
+                                 "type": "Layer",
+                                "id": "dothi1",
+                                "title": "....",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/gsi2023052712190149.geojson",
+                                "cocotile": true,
+                                "minZoom": 2,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 2
+                                }
+		  	  
+	                  ]
+	                  }							  
+		  
+		  
+	      ]
+	     },
+		 {
+          "type": "LayerGroup",
+          "title": "Các quy hoạch ở tỉnh",
+          "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch lập trong phạm ranh giới tỉnh</div>",
+          "toggleall": false,
+          "entries": [
+					  {
+                                 "type": "Layer",
+                                 "id": "QH tinh",
+                                 "title": "Quy hoạch tỉnh",
+                                 "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgdy36pwdQC79zKDiyCQc7O9dv6xI6TJN0mSCSoCw_OpmQDepSgYujOCkjlvBEOri59_w3V-kxu650/pub?gid=1405862646&single=true&output=csv",
+                                 "cocotile": true,
+                                 "minZoom": 10,
+                                 "maxZoom": 50,
+								 "maxNativeZoom": 2
+                                },
+                                {
+                                 "type": "Layer",
+                                "id": "do thi nong thon",
+                                "title": "Quy hoạch đô thị và nông thôn",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/gsi2023052712190149.geojson",
+                                "cocotile": true,
+                                "minZoom": 2,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 2
+                               },
+							    {
+                                 "type": "Layer",
+                                "id": "qhcnkt",
+                                "title": "Quy hoạch có tính chất kỹ thuật chuyên ngành",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/gsi2023052712190149.geojson",
+                                "cocotile": true,
+                                "minZoom": 2,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 2
+                               }
+		  			  
+		  
+		  
+		  
+		  
+	      ]
+	  
+	     }
+         
+      ]
+    }
+  ]
+}

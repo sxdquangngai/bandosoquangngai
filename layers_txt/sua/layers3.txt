@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Dự án đang triển khai",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>Bạn có thể dự án đang triển khai trên toàn tỉnh Quảng Ngãi.</div>",
+      "entries": [
+         
+      ]
+    }
+  ]
+}

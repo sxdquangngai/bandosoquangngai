@@ -1,0 +1,54 @@
+{
+  "layers": [
+    {
+      "type": "Layer",
+      "id": "std",
+      "title": "Tiêu chuẩn112",
+      "url": "http://{s}.tile.osm.org/{z}/{x}/{y}.png",
+      "cocotile": true,
+      "html" : "",
+      "legendUrl": "https://sxdquangngai/development/ichiran.html#std",
+      "errorTileUrl": "./image/map/no-data-std.png"
+    },
+    {
+      "type": "Layer",
+      "id": "pale",
+      "title": "OSM Topo Map",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
+      "cocotile": true,
+      "html" : "",
+      "legendUrl": "https://sxdquangngai/development/ichiran.html#pale",
+      "errorTileUrl": "./image/map/no-data-pale.png"
+    },
+    {
+      "type": "Layer",
+      "id": "blank",
+      "title": "Địa hình",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/{z}/{y}/{x}",
+      "cocotile": true,
+      "html" : "",
+      "legendUrl": "",
+      "errorTileUrl": "./image/map/no-data-blank.png"
+    },
+    {
+      "type": "Layer",
+      "id": "english",
+      "title": "Đường phố",
+      "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",
+      "cocotile": true,
+      "html" : "",
+      "legendUrl": "https://sxdquangngai/development/ichiran.html#english",
+      "errorTileUrl": "./image/map/no-data-english.png"
+    },
+    {
+      "type": "Layer",
+      "id": "ort",
+      "title": "Ảnh",
+      "url": "https://mt1.google.com/vt/lyrs=y&hl=vi&x={x}&y={y}&z={z}",
+      "cocotile": true,
+      "html" : "",
+      "legendUrl": "https://sxdquangngai/development/ichiran.html#english",
+      "errorTileUrl": "./image/map/no-data-ort.png"
+    }
+  ]
+}
