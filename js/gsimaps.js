@@ -19851,7 +19851,7 @@ GSI.MapLayerList = L.Evented.extend({
   _showLoading: function (title) {
     if (!this._showLoadingInc || this._showLoadingInc == 0) {
       this._showLoadingInc = 0;
-      GSI.Modal.LoadingMessage.show('ファイルを読み込んでいます...');
+      GSI.Modal.LoadingMessage.show('Đang tải...');
     }
     this._showLoadingInc++;
   },
