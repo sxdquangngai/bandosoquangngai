@@ -21,23 +21,23 @@
                       "entries": [
 		  	                     {
                                  "type": "Layer",
-                                 "id": "land",
+                                 "id": "tandanh.cl77hwwfo023620mqrxxephg2-9t81o",
                                  "title": "Lớp thử nghiệm",
-                                 "url": "https://api.mapbox.com/styles/v1/tandanh/cl77kvev4000415k122hsetud.html?title=view&access_token=pk.eyJ1IjoidGFuZGFuaCIsImEiOiJjbDZubjlmNmswMmd1M2psZWtwcWpwZHF6In0.8bbXtIQpUh_lsX0D4LcYJw",
+                                 "url": "https://api.tiles.mapbox.com/styles/v1/tandanh/tandanh.cl77hwwfo023620mqrxxephg2-9t81o/tiles/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidGFuZGFuaCIsImEiOiJjbDZubjlmNmswMmd1M2psZWtwcWpwZHF6In0.8bbXtIQpUh_lsX0D4LcYJw",
                                  "cocotile": true,
-                                 "minZoom": 8,
+                                 "minZoom": 10,
                                  "maxZoom": 50,
-								 "maxNativeZoom": 2
+								 "maxNativeZoom": 10
                                 },
                                 {
                                  "type": "Layer",
-                                "id": "land1",
+                                "id": "tandanh.1bf7mxhj",
                                 "title": "Lớp thử nghiệm1",
-                                "url": "https://api.mapbox.com/styles/v1/tandanh/cl77kvev4000415k122hsetud.html?title=copy&access_token=pk.eyJ1IjoidGFuZGFuaCIsImEiOiJjbDZubjlmNmswMmd1M2psZWtwcWpwZHF6In0.8bbXtIQpUh_lsX0D4LcYJw",
+                                "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/quang_ngai__quang_ngai/{z}/{x}/{y}.png",
                                 "cocotile": true,
-                                "minZoom": 2,
-                                "maxZoom": 50,
-                                "maxNativeZoom": 2
+                                "minZoom": 10,
+                                "maxZoom": 18,
+                                "maxNativeZoom": 20
                                 }
 	                            ]
 	                  },
@@ -109,7 +109,7 @@
           "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch lập trong phạm ranh giới tỉnh</div>",
           "toggleall": false,
           "entries": [
-					  {
+					            {
                                  "type": "Layer",
                                  "id": "QH tinh",
                                  "title": "Quy hoạch tỉnh",
@@ -119,7 +119,7 @@
                                  "maxZoom": 50,
 								 "maxNativeZoom": 2
                                 },
-                                {
+							   {
                                  "type": "Layer",
                                 "id": "do thi nong thon",
                                 "title": "Quy hoạch đô thị và nông thôn",
@@ -129,21 +129,158 @@
                                 "maxZoom": 50,
                                 "maxNativeZoom": 2
                                },
-							    {
-                                 "type": "Layer",
-                                "id": "qhcnkt",
-                                "title": "Quy hoạch có tính chất kỹ thuật chuyên ngành",
-                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/gsi2023052712190149.geojson",
-                                "cocotile": true,
-                                "minZoom": 2,
-                                "maxZoom": 50,
-                                "maxNativeZoom": 2
-                               }
-		  			  
-		  
-		  
-		  
-		  
+							   							    {
+                                "type": "LayerGroup",
+                                "title": "Quy hoạch có tính chất kỹ thuật chuyên ngành cấp tỉnh",
+                                 "html" : "<div class='layer_text'>Bạn có thể xem các Quy hoạch có tính chất kỹ thuật chuyên ngành cấp tỉnh</div>",
+                                "toggleall": false,
+                                 "entries": [  
+	
+				                           {
+                                           "type": "LayerGroup",
+                                           "title": "Quy hoạch sử dụng đất đến năm 2030",
+                                           "html" : "<div class='layer_text'>Bạn có thể xem các Quy hoạch sử dụng đất đến năm 2030</div>",
+                                           "toggleall": false,
+                                           "entries": [  
+										   
+										   	  {
+                                              "type": "Layer",
+                                              "id": "sudungdat_QuangNgai",
+                                              "title": "Thành phố Quảng Ngãi",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/quang_ngai__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },
+										   	  {
+                                              "type": "Layer",
+                                              "id": "sudungdat_DucPho",
+                                              "title": "Thị xã Đức Phổ",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/duc_pho__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },
+										   	  {
+                                              "type": "Layer",
+                                              "id": "binh_son__quang_ngai",
+                                              "title": "Huyện Bình Sơn",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/binh_son__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },												
+								               {
+                                              "type": "Layer",
+                                              "id": "tu_nghia__quang_ngai",
+                                              "title": "Huyện Tư Nghĩa",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/tu_nghia__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },
+										      {
+                                              "type": "Layer",
+                                              "id": "mo_duc__quang_ngai",
+                                              "title": "Huyện Mộ Đức",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/mo_duc__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },
+											   {
+                                              "type": "Layer",
+                                              "id": "son_tinh__quang_ngai",
+                                              "title": "Huyện Sơn Tịnh",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/son_tinh__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },
+											   {
+                                              "type": "Layer",
+                                              "id": "ly_son__quang_ngai",
+                                              "title": "Huyện Lý Sơn",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/ly_son__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },
+												{
+                                              "type": "Layer",
+                                              "id": "son_tay__quang_ngai",
+                                              "title": "Huyện Sơn Tây",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/son_tay__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },
+											  {
+                                              "type": "Layer",
+                                              "id": "ba_to__quang_ngai",
+                                              "title": "Huyện Ba Tơ",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/ba_to__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },
+											  {
+                                              "type": "Layer",
+                                              "id": "tra_bong__quang_ngai",
+                                              "title": "Huyện Trà Bồng",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/tra_bong__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18
+                                                },
+											 {
+                                              "type": "Layer",
+                                              "id": "land",
+                                              "title": "lan",
+                                               "url": "http://geo2.cgis.asia:8080/geoserver/quocgia/WMS/1.1.0/quocgia:qg_gt_duongbo@EPSG:4326@png/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 20
+                                                },
+												 {
+                                              "type": "Layer",
+                                              "id": "quocgia:qg_gt_duongbo",
+                                              "title": "quocgia:qg_gt_duongbo",
+                                               "url": "http://geo2.cgis.asia:8080/geoserver/quocgia/qg_gt_duongbo/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 10,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 20
+                                                }									
+												
+								            ] 
+								            },
+									       {
+                                           "type": "LayerGroup",
+                                           "title": "Quy hoạch khác",
+                                           "html" : "<div class='layer_text'>Bạn có thể xem các Quy hoạch khác</div>",
+                                           "toggleall": false,
+                                           "entries": [  
+								              	 
+								            ] 
+								            }
+											
+											
+
+                                ]
+                                }
+
 	      ]
 	  
 	     }
