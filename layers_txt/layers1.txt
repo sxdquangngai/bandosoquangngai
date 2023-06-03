@@ -23,7 +23,7 @@
                                  "type": "Layer",
                                  "id": "land",
                                  "title": "Lớp thử nghiệm",
-                                 "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/Hanhchinhtinh.geojson",
+                                 "url": "https://api.mapbox.com/styles/v1/tandanh/cl77kvev4000415k122hsetud.html?title=view&access_token=pk.eyJ1IjoidGFuZGFuaCIsImEiOiJjbDZubjlmNmswMmd1M2psZWtwcWpwZHF6In0.8bbXtIQpUh_lsX0D4LcYJw&zoomwheel=true&fresh=true#11.76/15.1178/108.8117",
                                  "cocotile": true,
                                  "minZoom": 8,
                                  "maxZoom": 50,
