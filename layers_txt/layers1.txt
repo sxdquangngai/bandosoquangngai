@@ -27,7 +27,12 @@
                                  "cocotile": true,
                                  "minZoom": 5,
                                  "maxZoom": 50,
-								 "maxNativeZoom": 14
+								 "maxNativeZoom": 14,
+				 "area" : {
+                                "lat" : 15.188081,
+                                 "lng" : 108.096666,
+                                 "zoom" : 12
+                                           }
                                 },
                                 {
                                  "type": "Layer",
@@ -127,7 +132,12 @@
                                 "cocotile": true,
                                 "minZoom": 2,
                                 "maxZoom": 50,
-                                "maxNativeZoom": 2
+                                "maxNativeZoom": 2,
+			        "area" : {
+                                "lat" : 15.115268,
+                                 "lng" : 108.817209,
+                                 "zoom" : 16
+                                           }
                                },
 							   							    {
                                 "type": "LayerGroup",
@@ -151,7 +161,15 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 18
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 15.150180,
+                                                "lng" : 108.869877,
+                                                 "zoom" : 16
+                                                  }
+					       
+					       
+					       
                                                 },
 										   	  {
                                               "type": "Layer",
