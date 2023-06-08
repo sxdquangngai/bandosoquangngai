@@ -343,7 +343,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 19
+                                               "maxNativeZoom": 19,
+					       "area" : {
+                                                "lat" : 15.076433,
+                                                "lng" : 108.755121,
+                                                 "zoom" : 15
+                                                  }
 											   
                                                 },		
 
@@ -355,7 +360,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 19
+                                               "maxNativeZoom": 19,
+					       "area" : {
+                                                "lat" : 15.076433,
+                                                "lng" : 108.755121,
+                                                 "zoom" : 15
+                                                  }					       
 											   
                                                 },
 										       {
@@ -366,7 +376,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 19
+                                               "maxNativeZoom": 19,
+					       "area" : {
+                                                "lat" : 15.076433,
+                                                "lng" : 108.755121,
+                                                 "zoom" : 15
+                                                  }
 											   
                                                 },	
 										       {
@@ -377,7 +392,12 @@
                                                "cocotile": true,
                                                "minZoom": 4,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 19
+                                               "maxNativeZoom": 19,
+					        "area" : {
+                                                "lat" : 15.076433,
+                                                "lng" : 108.755121,
+                                                 "zoom" : 15
+                                                  }
 											   
                                                 }	
 												
