@@ -163,8 +163,8 @@
                                                "maxZoom": 20,
                                                "maxNativeZoom": 18,
 					        "area" : {
-                                                "lat" : 15.150180,
-                                                "lng" : 108.869877,
+                                                "lat" : 15.156477,
+                                                "lng" : 108.859921,
                                                  "zoom" : 13
                                                   }
 					       
@@ -181,9 +181,9 @@
                                                "maxZoom": 20,
                                                "maxNativeZoom": 18,
 					       "area" : {
-                                                "lat" : 14.775214,
-                                                "lng" : 109.038963,
-                                                 "zoom" : 13
+                                                "lat" : 14.767911,
+                                                "lng" : 109.055443,
+                                                 "zoom" : 12
                                                   }
                                                 },
 										   	  {
@@ -209,7 +209,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 18
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 15.090356,
+                                                "lng" : 108.765678,
+                                                 "zoom" : 13
+                                                  }					       
                                                 },
 										      {
                                               "type": "Layer",
@@ -219,7 +224,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 18
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 14.949429,
+                                                "lng" : 108.900089,
+                                                 "zoom" : 13
+                                                  }						       
                                                 },
 											   {
                                               "type": "Layer",
@@ -229,7 +239,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 18
+                                               "maxNativeZoom": 18,
+					         "area" : {
+                                                "lat" : 15.198723,
+                                                "lng" : 108.700962,
+                                                 "zoom" : 13
+                                                  }
                                                 },
 											   {
                                               "type": "Layer",
@@ -239,7 +254,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 18
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 15.398990,
+                                                "lng" : 109.105310,
+                                                 "zoom" : 14
+                                                  }
                                                 },
 												{
                                               "type": "Layer",
@@ -249,7 +269,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 18
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 14.968003,
+                                                "lng" : 108.356438,
+                                                 "zoom" : 12
+                                                  }		       
                                                 },
 											  {
                                               "type": "Layer",
@@ -259,7 +284,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 18
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 14.744671,
+                                                "lng" : 108.720360,
+                                                 "zoom" : 12
+                                                  }					       
                                                 },
 											  {
                                               "type": "Layer",
@@ -269,7 +299,12 @@
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 18
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 15.202368,
+                                                "lng" : 108.443642,
+                                                 "zoom" : 12
+                                                  }					       
                                                 },
 											 {
                                               "type": "Layer",
