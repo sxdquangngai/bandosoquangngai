@@ -1,3 +1,4 @@
+
 {
   "layers": [
     {
@@ -5,8 +6,62 @@
       "title": "Vị trí ngập úng đô thị qua các năm",
       "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
       "toggleall": false,
-      "html" : "<div class='layer_text'>Bạn có thể xem vị trí ngập úng đô thị qua các năm</div>",
+      "html" : "<div class='layer_text'>Bạn có thể xem vị trí ngập úng đô thị qua các năm.</div>",
       "entries": [
+		              {
+                      "type": "LayerGroup",
+                      "title": "Năm 2021",
+                      "id": "diemngaptp2021",					  
+                      "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch quy hoạch cấp vùng trên tại tỉnh Quảng Ngãi</div>",
+                      "toggleall": false,
+					  "area" : {
+                      "lat" : 15.124519,
+                      "lng" : 108.800282,
+                      "zoom" : 14
+                      },
+                      "entries": [
+                                  {
+                                 "type": "Layer",
+                                "id": "diemngaptp2021",
+                                "title": "Điểm ngập thành phố Quảng Ngãi",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/ngapungthanhpho2021.geojson",
+                                "cocotile": true,
+                                "minZoom": 12,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 12
+                                },
+                                  {
+                                "type": "Layer",
+                                "id": "diemngaptp2021",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/tetngapung-moi.geojson",
+                                "cocotile": true,
+                                "minZoom": 16,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 16
+                                }
+
+	                  ]
+	                  },
+		              {
+                      "type": "LayerGroup",
+                      "title": "Năm 2022",
+                      "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch quy hoạch cấp vùng trên tại tỉnh Quảng Ngãi</div>",
+                      "toggleall": false,
+                      "entries": [
+  	  
+	                  ]
+	                  },
+		              {
+                      "type": "LayerGroup",
+                      "title": "Năm 2023",
+                      "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch quy hoạch cấp vùng trên tại tỉnh Quảng Ngãi</div>",
+                      "toggleall": false,
+                      "entries": [
+  	  
+	                  ]
+	                  }
+		              						  
+					  
          
       ]
     }
