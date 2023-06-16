@@ -1,0 +1,424 @@
+{
+  "layers": [
+    {
+      "type": "LayerGroup",
+      "title": "Quy hoạch",
+      "iconUrl": "https://maps.gsi.go.jp/portal/sys/v4/symbols/670.png",
+      "toggleall": false,
+      "html" : "<div class='layer_text'>Bạn có thể xem quy hoạch trên toàn tỉnh Quảng Ngãi.</div>",
+      "entries": [
+	  	  {
+          "type": "LayerGroup",
+          "title": "Quy hoạch cấp trên",
+          "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch cấp trên tại tỉnh Quảng Ngãi</div>",
+          "toggleall": false,
+          "entries": [
+		              {
+                      "type": "LayerGroup",
+                      "title": "Quy hoạch cấp quốc gia",
+                      "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch cấp quốc gia trên tại tỉnh Quảng Ngãi</div>",
+                      "toggleall": false,
+                      "entries": [
+		  	                     {
+                                 "type": "Layer",
+                                 "id": "tandanh.cl77hwwfo023620mqrxxephg2-9t81o",
+                                 "title": "Lớp thử nghiệm",
+                                 "url": "https://api.tiles.mapbox.com/styles/v1/tandanh/tandanh.cl77hwwfo023620mqrxxephg2-9t81o/tiles/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidGFuZGFuaCIsImEiOiJjbDZubjlmNmswMmd1M2psZWtwcWpwZHF6In0.8bbXtIQpUh_lsX0D4LcYJw",
+                                 "cocotile": true,
+                                 "minZoom": 5,
+                                 "maxZoom": 50,
+								 "maxNativeZoom": 14,
+				 "area" : {
+                                "lat" : 15.188081,
+                                 "lng" : 108.096666,
+                                 "zoom" : 12
+                                           }
+                                },
+                                {
+                                 "type": "Layer",
+                                "id": "tandahj",
+                                "title": "Lớp thử nghiệm1",
+                                "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/quang_ngai__quang_ngai/{z}/{x}/{y}.png",
+                                "cocotile": true,
+                                "minZoom": 5,
+                                "maxZoom": 18,
+                                "maxNativeZoom": 20
+                                }
+	                            ]
+	                  },
+		              {
+                      "type": "LayerGroup",
+                      "title": "Quy hoạch cấp vùng",
+                      "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch quy hoạch cấp vùng trên tại tỉnh Quảng Ngãi</div>",
+                      "toggleall": false,
+                      "entries": [
+					  {
+                                 "type": "Layer",
+                                 "id": "cayxanh",
+                                 "title": "vùng Duyên hải Nam Trung Bộ",
+                                 "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgdy36pwdQC79zKDiyCQc7O9dv6xI6TJN0mSCSoCw_OpmQDepSgYujOCkjlvBEOri59_w3V-kxu650/pub?gid=1405862646&single=true&output=csv",
+                                 "cocotile": true,
+                                 "minZoom": 5,
+                                 "maxZoom": 50,
+								 "maxNativeZoom": 2
+                                },
+                                {
+                                 "type": "Layer",
+                                "id": "....",
+                                "title": "xa",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/gsi2023052712190149.geojson",
+                                "cocotile": true,
+                                "minZoom": 2,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 2
+                                }
+		  	  
+	                  ]
+	                  },
+		              {
+                      "type": "LayerGroup",
+                      "title": "Quy hoạch có tính chất kỹ thuật chuyên ngành",
+                      "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch quy hoạch cấp vùng trên tại tỉnh Quảng Ngãi</div>",
+                      "toggleall": false,
+                      "entries": [
+					  {
+                                 "type": "Layer",
+                                 "id": "cayxanh1",
+                                 "title": "......",
+                                 "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgdy36pwdQC79zKDiyCQc7O9dv6xI6TJN0mSCSoCw_OpmQDepSgYujOCkjlvBEOri59_w3V-kxu650/pub?gid=1405862646&single=true&output=csv",
+                                 "cocotile": true,
+                                 "minZoom": 5,
+                                 "maxZoom": 50,
+								 "maxNativeZoom": 2
+                                },
+                                {
+                                 "type": "Layer",
+                                "id": "dothi1",
+                                "title": "....",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/gsi2023052712190149.geojson",
+                                "cocotile": true,
+                                "minZoom": 2,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 2
+                                }
+		  	  
+	                  ]
+	                  }							  
+		  
+		  
+	      ]
+	     },
+		 {
+          "type": "LayerGroup",
+          "title": "Các quy hoạch ở tỉnh",
+          "html" : "<div class='layer_text'>Bạn có thể xem các quy hoạch lập trong phạm ranh giới tỉnh</div>",
+          "toggleall": false,
+          "entries": [
+					            {
+                                 "type": "Layer",
+                                 "id": "QH tinh",
+                                 "title": "Quy hoạch tỉnh",
+                                 "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRgdy36pwdQC79zKDiyCQc7O9dv6xI6TJN0mSCSoCw_OpmQDepSgYujOCkjlvBEOri59_w3V-kxu650/pub?gid=1405862646&single=true&output=csv",
+                                 "cocotile": true,
+                                 "minZoom": 5,
+                                 "maxZoom": 50,
+								 "maxNativeZoom": 2
+                                },
+							   {
+                                 "type": "Layer",
+                                "id": "do thi nong thon",
+                                "title": "Quy hoạch đô thị và nông thôn",
+                                "url": "https://raw.githubusercontent.com/sxdquangngai/dulieu/main/gsi2023052712190149.geojson",
+                                "cocotile": true,
+                                "minZoom": 2,
+                                "maxZoom": 50,
+                                "maxNativeZoom": 2,
+			        "area" : {
+                                "lat" : 15.115268,
+                                 "lng" : 108.817209,
+                                 "zoom" : 16
+                                           }
+                               },
+							   							    {
+                                "type": "LayerGroup",
+                                "title": "Quy hoạch có tính chất kỹ thuật chuyên ngành cấp tỉnh",
+                                 "html" : "<div class='layer_text'>Bạn có thể xem các Quy hoạch có tính chất kỹ thuật chuyên ngành cấp tỉnh</div>",
+                                "toggleall": false,
+                                 "entries": [  
+	
+				                           {
+                                           "type": "LayerGroup",
+                                           "title": "Quy hoạch sử dụng đất đến năm 2030",
+                                           "html" : "<div class='layer_text'>Bạn có thể xem các Quy hoạch sử dụng đất đến năm 2030</div>",
+                                           "toggleall": false,
+                                           "entries": [  
+										   
+										   	  {
+                                              "type": "Layer",
+                                              "id": "sudungdat_QuangNgai",
+                                              "title": "Thành phố Quảng Ngãi",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/quang_ngai__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 15.156477,
+                                                "lng" : 108.859921,
+                                                 "zoom" : 13
+                                                  }
+					       
+					       
+					       
+                                                },
+										   	  {
+                                              "type": "Layer",
+                                              "id": "sudungdat_DucPho",
+                                              "title": "Thị xã Đức Phổ",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/duc_pho__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					       "area" : {
+                                                "lat" : 14.767911,
+                                                "lng" : 109.055443,
+                                                 "zoom" : 12
+                                                  }
+                                                },
+										   	  {
+                                              "type": "Layer",
+                                              "id": "binh_son__quang_ngai",
+                                              "title": "Huyện Bình Sơn",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/binh_son__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 15.313327,
+                                                "lng" : 108.782158,
+                                                 "zoom" : 12
+                                                  }
+                                                },												
+								               {
+                                              "type": "Layer",
+                                              "id": "tu_nghia__quang_ngai",
+                                              "title": "Huyện Tư Nghĩa",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/tu_nghia__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 15.090356,
+                                                "lng" : 108.765678,
+                                                 "zoom" : 13
+                                                  }					       
+                                                },
+										      {
+                                              "type": "Layer",
+                                              "id": "mo_duc__quang_ngai",
+                                              "title": "Huyện Mộ Đức",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/mo_duc__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 14.949429,
+                                                "lng" : 108.900089,
+                                                 "zoom" : 13
+                                                  }						       
+                                                },
+											   {
+                                              "type": "Layer",
+                                              "id": "son_tinh__quang_ngai",
+                                              "title": "Huyện Sơn Tịnh",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/son_tinh__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					         "area" : {
+                                                "lat" : 15.198723,
+                                                "lng" : 108.700962,
+                                                 "zoom" : 13
+                                                  }
+                                                },
+											   {
+                                              "type": "Layer",
+                                              "id": "ly_son__quang_ngai",
+                                              "title": "Huyện Lý Sơn",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/ly_son__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 15.398990,
+                                                "lng" : 109.105310,
+                                                 "zoom" : 14
+                                                  }
+                                                },
+												{
+                                              "type": "Layer",
+                                              "id": "son_tay__quang_ngai",
+                                              "title": "Huyện Sơn Tây",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/son_tay__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 14.968003,
+                                                "lng" : 108.356438,
+                                                 "zoom" : 12
+                                                  }		       
+                                                },
+											  {
+                                              "type": "Layer",
+                                              "id": "ba_to__quang_ngai",
+                                              "title": "Huyện Ba Tơ",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/ba_to__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 14.744671,
+                                                "lng" : 108.720360,
+                                                 "zoom" : 12
+                                                  }					       
+                                                },
+											  {
+                                              "type": "Layer",
+                                              "id": "tra_bong__quang_ngai",
+                                              "title": "Huyện Trà Bồng",
+                                               "url": "https://cdn.dandautu.vn/quy-hoach/quang_ngai/tra_bong__quang_ngai/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 18,
+					        "area" : {
+                                                "lat" : 15.202368,
+                                                "lng" : 108.443642,
+                                                 "zoom" : 12
+                                                  }					       
+                                                },
+											 {
+                                              "type": "Layer",
+                                              "id": "land1",
+                                              "title": "Thử nghiệm quy hoạch xây dựng",
+                                               "url": "https://api.mapbox.com/v4/tandanh.2t3biwvg/{z}/{x}/{y}.webp?sku=101IPpWHMc9w3&access_token=pk.eyJ1IjoidGFuZGFuaCIsImEiOiJjbDZubjlmNmswMmd1M2psZWtwcWpwZHF6In0.8bbXtIQpUh_lsX0D4LcYJw",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 20,
+											    "area" : {
+                                                "lat" : 15.114363,
+                                                "lng" : 108.802334,
+                                                 "zoom" : 15
+                                                  }	
+                                                },								
+										       {
+                                              "type": "Layer",
+                                              "id": "tandanh.2tcmvbsr",
+                                              "title": "Thử nghiệm bản đồ giải thửa",
+                                               "url": "https://process.guland.vn/land/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 20
+                                                }
+								            ] 
+								            },
+									       {
+                                           "type": "LayerGroup",
+                                           "title": "Khu liên hợp xử lý Nghĩa Kỳ",
+                                           "html" : "<div class='layer_text'>Bạn có thể xem các Khu liên hợp xử lý Nghĩa Kỳ</div>",
+                                           "toggleall": false,
+                                           "entries": [  
+										   
+										   {
+                                              "type": "Layer",
+                                              "id": "tanphat1234.3ytfdxyw",
+                                              "title": "Quy hoạch sử dụng đất",
+                                               "url": "https://api.mapbox.com/v4/tanphat1234.3ytfdxyw/{z}/{x}/{y}.webp?sku=101IPpWHMc9w3&access_token=pk.eyJ1IjoidGFucGhhdDEyMzQiLCJhIjoiY2w4NXdudTg1MDY4eTNwcWZiZDQ2ZHZybSJ9.YXqImEEnGSZEm5Ax45owIg",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 19,
+					       "area" : {
+                                                "lat" : 15.076433,
+                                                "lng" : 108.755121,
+                                                 "zoom" : 15
+                                                  }
+											   
+                                                },		
+
+										   {
+                                              "type": "Layer",
+                                              "id": "tanphat1234.76y4wl26",
+                                              "title": "Quy hoạch kiến trúc cảnh quan",
+                                               "url": "https://api.mapbox.com/v4/tanphat1234.76y4wl26/{z}/{x}/{y}.webp?sku=101IPpWHMc9w3&access_token=pk.eyJ1IjoidGFucGhhdDEyMzQiLCJhIjoiY2w4NXdudTg1MDY4eTNwcWZiZDQ2ZHZybSJ9.YXqImEEnGSZEm5Ax45owIg",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 19,
+					       "area" : {
+                                                "lat" : 15.076433,
+                                                "lng" : 108.755121,
+                                                 "zoom" : 15
+                                                  }					       
+											   
+                                                },
+										       {
+                                              "type": "Layer",
+                                              "id": "tanphat1234.6ywgqk8q",
+                                              "title": "Đánh giá môi trường chiến lược",
+                                               "url": "https://api.mapbox.com/v4/tanphat1234.6ywgqk8q/{z}/{x}/{y}.webp?sku=101IPpWHMc9w3&access_token=pk.eyJ1IjoidGFucGhhdDEyMzQiLCJhIjoiY2w4NXdudTg1MDY4eTNwcWZiZDQ2ZHZybSJ9.YXqImEEnGSZEm5Ax45owIg",
+                                               "cocotile": true,
+                                               "minZoom": 5,
+                                               "maxZoom": 20,
+                                               "maxNativeZoom": 19,
+					       "area" : {
+                                                "lat" : 15.076433,
+                                                "lng" : 108.755121,
+                                                 "zoom" : 15
+                                                  }
+											   
+                                                },	
+										       {
+                                              "type": "Layer",
+                                              "id": "danh",
+                                              "title": "TN ",
+                                               "url": "https://process.guland.vn/land/{z}/{x}/{y}.png",
+                                               "cocotile": true,
+                                               "minZoom": 4,
+                                               "maxZoom": 25,
+                                               "maxNativeZoom": 19,
+					        "area" : {
+                                                "lat" : 15.076433,
+                                                "lng" : 108.755121,
+                                                 "zoom" : 15
+                                                  }
+											   
+                                                }	
+												
+								            ] 
+								            }
+											
+											
+
+                                ]
+                                }
+
+	      ]
+	  
+	     }
+         
+      ]
+    }
+  ]
+}
