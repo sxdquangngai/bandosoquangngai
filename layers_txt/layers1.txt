@@ -309,18 +309,23 @@
 											 {
                                               "type": "Layer",
                                               "id": "land1",
-                                              "title": "lan1",
+                                              "title": "Thử nghiệm quy hoạch xây dựng",
                                                "url": "https://api.mapbox.com/v4/tandanh.2t3biwvg/{z}/{x}/{y}.webp?sku=101IPpWHMc9w3&access_token=pk.eyJ1IjoidGFuZGFuaCIsImEiOiJjbDZubjlmNmswMmd1M2psZWtwcWpwZHF6In0.8bbXtIQpUh_lsX0D4LcYJw",
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
-                                               "maxNativeZoom": 20
+                                               "maxNativeZoom": 20,
+											    "area" : {
+                                                "lat" : 15.114363,
+                                                "lng" : 108.802334,
+                                                 "zoom" : 15
+                                                  }	
                                                 },								
 										       {
                                               "type": "Layer",
                                               "id": "tandanh.2tcmvbsr",
-                                              "title": "lan12",
-                                               "url": "https://api.mapbox.com/v4/tandanh.2tcmvbsr/{z}/{x}/{y}.webp?sku=101IPpWHMc9w3&access_token=pk.eyJ1IjoidGFuZGFuaCIsImEiOiJjbDZubjlmNmswMmd1M2psZWtwcWpwZHF6In0.8bbXtIQpUh_lsX0D4LcYJw",
+                                              "title": "Thử nghiệm bản đồ giải thửa",
+                                               "url": "https://process.guland.vn/land/{z}/{x}/{y}.png",
                                                "cocotile": true,
                                                "minZoom": 5,
                                                "maxZoom": 20,
@@ -386,12 +391,12 @@
                                                 },	
 										       {
                                               "type": "Layer",
-                                              "id": "tanphat1234.37gzw8we",
-                                              "title": "Đánh giá môi trường",
-                                               "url": "https://api.mapbox.com/v4/tanphat1234.37gzw8we/{z}/{x}/{y}.webp?sku=101IPpWHMc9w3&access_token=pk.eyJ1IjoidGFucGhhdDEyMzQiLCJhIjoiY2w4NXdudTg1MDY4eTNwcWZiZDQ2ZHZybSJ9.YXqImEEnGSZEm5Ax45owIg",
+                                              "id": "danh",
+                                              "title": "TN ",
+                                               "url": "https://process.guland.vn/land/{z}/{x}/{y}.png",
                                                "cocotile": true,
                                                "minZoom": 4,
-                                               "maxZoom": 20,
+                                               "maxZoom": 25,
                                                "maxNativeZoom": 19,
 					        "area" : {
                                                 "lat" : 15.076433,
